@@ -57,10 +57,14 @@ Tumble-Pop/
 
 ## Getting Started
 
-### Prerequisites
+## Prerequisites
 
-- A C++ compiler (e.g. g++, MSVC)
-- SFML, or whichever graphics/audio library the project depends on
+* A C++ compiler (e.g. g++, MSVC, Clang)
+* [SFML](https://www.sfml-dev.org/) (Simple and Fast Multimedia Library) specifically:
+  * `SFML/Graphics.hpp`
+  * `SFML/Audio.hpp`
+  * `SFML/Window.hpp`
+* CMake (optional, if you're using it to build) or manual g++ linking
 
 ### Build and Run
 
