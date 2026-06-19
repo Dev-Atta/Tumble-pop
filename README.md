@@ -28,11 +28,9 @@ Press Escape at any time to close the game.
 
 ## Preview
 
-(Add a screenshot or GIF of gameplay here once available)
+![Tumble Pop Gameplay](Data/Sreenshot.JPG)
 
-```
-![Gameplay Screenshot](Data/screenshot.png)
-```
+> A quick look at Tumble Pop in action.
 
 ## Built With
 
