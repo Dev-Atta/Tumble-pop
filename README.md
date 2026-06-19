@@ -4,9 +4,19 @@ A 2D arcade-style game built in C++, featuring custom sprite-based characters, a
 
 ## About
 
-Tumble Pop is a 2D game where the player navigates through obstacles, avoids or captures enemies such as ghosts and skeletons, and collects items along the way.
+Tumble Pop is a 2D platformer in which the player explores a multi-level platform layout populated by patrolling ghosts and jumping skeletons. The player's goal is to capture every enemy on the level using a vacuum tool before being caught.
 
-> Replace this section with an accurate description of your actual gameplay — the goal, win/loss conditions, and core mechanics.
+Core mechanics:
+- The player moves left and right and jumps between platforms, with gravity and collision against blocks.
+- Holding the vacuum (Space) activates a suction tool that pulls in any ghost or skeleton within range, deactivating them on contact.
+- Ghosts patrol their platform automatically, periodically pausing and changing direction.
+- Skeletons patrol and jump at random intervals, applying their own gravity and ground checks.
+
+Win condition: All ghosts and skeletons on the level have been captured by the vacuum, triggering a "YOU WIN" screen.
+
+Loss condition: Touching an active ghost or skeleton ends the run and triggers a "GAME OVER" screen.
+
+Press Escape at any time to close the game.
 
 ## Features
 
@@ -65,10 +75,14 @@ Update the build command above to match your actual compiler setup and linked li
 
 ## Controls
 
-| Key   | Action            |
-|-------|-------------------|
-| Left/Right Arrow | Move left / right |
-| Space | Jump / Action     |
-| Esc   | Pause / Quit      |
+| Key          | Action                  |
+|--------------|-------------------------|
+| Left Arrow   | Move left               |
+| Right Arrow  | Move right               |
+| Up Arrow     | Jump                    |
+| Space        | Activate vacuum (capture enemies in range) |
+| Escape       | Quit the game            |
 
-Update this table with the game's actual controls.
+## License
+
+Feel free to use and modify it.
