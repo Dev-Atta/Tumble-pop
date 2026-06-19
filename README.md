@@ -52,7 +52,7 @@ Tumble-Pop/
 │   ├── bag.png
 │   ├── bg.png
 │   └── mus.ogg
-└── pf_project/        Project files
+└── Material/        Project files
 ```
 
 ## Getting Started
